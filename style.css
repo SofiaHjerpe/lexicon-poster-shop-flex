@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  background-color: #3de07e;
+  width: 100%;
+  height: 388px;
+  flex-direction: column;
+  gap: 60px;
+}
+.hamburger-menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px;
+}
+
+.line {
+  content: "";
+  color: #000;
+  width: 15px;
+  border-top: 1.5px solid #000;
+}
+.title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h1 {
+  font-size: 60px;
+  white-space: nowrap;
+  font-family: Roboto;
+  color: #242424;
+}
+.ninja {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-self: bottom;
+}
