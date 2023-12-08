@@ -22,7 +22,6 @@ nav {
 }
 .ninjaicon {
   margin-top: 67px;
-  margin-right: 25px;
 }
 
 .line {
@@ -108,6 +107,7 @@ button {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-bottom: 80px;
 }
 .card1 {
   width: 435px;
@@ -149,4 +149,49 @@ button {
 }
 .boxImg {
   max-width: 100%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  color: whitesmoke;
+  height: 250px;
+  justify-content: space-between;
+}
+.navcontent {
+  color: #fff;
+  margin-top: 40px;
+  align-self: flex-start;
+}
+.navcontent:nth-child(1) {
+  margin-inline: 290px 0;
+}
+.navcontent:nth-child(3) {
+  margin-inline: 0px 400px;
+}
+.navcontent h2 {
+  font-size: 32px;
+  font-family: roboto;
+  margin-bottom: 15px;
+}
+ul {
+  list-style: none;
+}
+.content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.content-list > li {
+  font-size: 14px;
+  color: #ffffffd0;
+  font-family: roboto;
+}
+.social-media {
+  display: flex;
+  gap: 15px;
 }
