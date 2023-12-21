@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "assets",
+		"path": "../../../../../Downloads/poster-shop-main/poster-shop-main/assets"
+	},
+	{
+		"name": "PosterShop",
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PosterShop"
+  }
+}

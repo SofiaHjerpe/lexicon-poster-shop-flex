@@ -10,7 +10,6 @@ body {
 .page-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .box1 {
@@ -25,7 +24,7 @@ body {
 .box1-1 {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
 }
 
 .line {
@@ -73,15 +72,12 @@ button {
   align-items: center;
   justify-content: center;
   border-color: transparent;
-  text-align: center;
   border-radius: 4px;
   font-family: roboto;
   height: 25px;
   width: 120px;
   font-size: 10px;
   margin: 16px;
-  padding-inline: 25px;
-  white-space: nowrap;
   font-weight: 600;
   color: whitesmoke;
 }
@@ -91,7 +87,6 @@ h2 {
   font-size: 32px;
   color: whitesmoke;
   font-weight: 500;
-  white-space: nowrap;
   font-family: roboto;
 }
 p {
@@ -101,15 +96,12 @@ p {
 }
 .box2-1 {
   display: flex;
-  max-width: 200px;
-  max-height: 500px;
   justify-self: center;
   margin-inline: 100px;
   gap: 15px;
 }
 .card1,
 .card2 {
-  width: 255px;
   background-color: #fff;
 }
 
@@ -167,8 +159,6 @@ p {
 
 .heading {
   background-color: #e83f5825;
-  width: 200px;
-  white-space: nowrap;
   height: 10px;
   padding: 5px;
   padding-bottom: 10px;
@@ -187,33 +177,27 @@ p {
 }
 
 .r11 {
-  list-style: none;
   font-family: roboto;
   color: #ffffffd0;
   padding-top: 15px;
   height: 100px;
-  white-space: nowrap;
 }
 .r11 li:nth-of-type(1) {
   padding-bottom: 18px;
 }
 
 .lineHr {
-  margin: 0;
   padding-top: 10px;
   border-bottom: 1px solid whitesmoke;
-  width: 520px;
-  height: 1px;
+  width: 100%;
 }
 
 .box2-22 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   color: whitesmoke;
   margin-top: 10px;
   padding: 10px;
-  padding-left: 0;
 }
 h6 {
   font-size: 18px;
@@ -228,8 +212,6 @@ h6 {
 .box2-31 button {
   height: 42px;
   font-size: 18px;
-  border-radius: 4px;
-  font-weight: 600;
   width: 225px;
   padding-inline: 5px;
   margin-inline: 200px;
@@ -238,17 +220,13 @@ h6 {
 
 .box3 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 600px;
   padding-inline: 85px;
   height: 220px;
   background-color: #333;
-  color: whitesmoke;
 }
-.box3-1 {
-  color: #fff;
-}
+
 
 .box3-1 h2 {
   font-size: 22px;
